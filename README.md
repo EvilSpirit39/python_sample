@@ -1,9 +1,85 @@
 # python_sample
 Pythonのサンプルコード
 
+# コメント
+
+pythonではシャープ `#` で始める行がコメントとなる
+
+# 演算子
+
+## 算術演算
+以下の演算子に対応
+
+- 四則演算 (+-*/)
+- 剰余 (%)
+- べき乗 (**)
+- 整数除算 (//)
+
+## 代入
+
+`変数名 = 値` で代入
+変数名は英数字とアンダーバー(_)の組み合わせが使える。ただし数字で始めてはならない。
+
+# 関数
+
+## 算術
+
+- abs: 絶対値
+- round: 丸める
+- min: 最小値
+- max: 最大値
+
+
+# import文
+
+- モジュールを読み込む文
+  - `import モジュール名` の形式
+    - `モジュール名.関数名` で呼び出せるようになる
+
+# io
+
+入出力ストリームを扱う
+
+## BytesIO
+
+インメモリのバイナリストリーム
+
+- コンストラクタ: 初期データを引き渡してバイナリストリームを作る
+
+
+# requests
+
+HTTPを扱うライブラリ
+https://requests-docs-ja.readthedocs.io/en/latest/
+
+- get: GETメソッドによるデータ取得
+
+# Pillow(PIL fork)
+
+画像操作を扱うライブラリ。
+https://pillow.readthedocs.io/en/stable/
+
+## Image
+画像を扱うモジュール
+
+- open: ファイルまたはファイルオブジェクトを指定して開く
+
+# MatPlotLib
+チャート表示を扱うパッケージ
+https://matplotlib.org/
+
+## pyplot
+
+MATLAB形式のプロットを行うモジュール
+
+- bar: バーチャートを作る
+- plot: X-Yデータをプロットする
+- show: プロットを画面に表示
+
 # Numpy
 
 数値演算を行うためのパッケージ
+https://pandas.pydata.org/
 
 ## よく使う関数
 
